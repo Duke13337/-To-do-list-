@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    container_name: todo-list-container
+    stdin_open: true # Аналог -it для ввода данных
+    tty: true        # Аналог -it для ввода данных
+  
